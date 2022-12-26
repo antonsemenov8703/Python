@@ -8,6 +8,7 @@ number = int(input("Введите число: "))
 result = 1
 result_list = []
 for i in range(number):
-    result = result+result*i
+    result = result+result*i # result *= i +1
     result_list.append(result) 
 print(result_list)
+

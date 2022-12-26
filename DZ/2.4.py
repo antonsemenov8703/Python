@@ -31,3 +31,24 @@ if 0 < position_one < (2*(N+1)) and 0 < position_two < (2*(N+1)):
     print(number_list)
     print("Произведение элементов", position_one, " и ",position_two, " = ", result  )
 else: print("There are no values for these indexes!")
+
+
+
+# вариант решения на семинаре
+# тут плюс в том, что используется длина списка, к не математическое вычисление длины как написано у меня
+
+num = int(input)
+n_1 = int(input)
+n_2 = int(input)
+
+num_list = list(range(-num, num +1))  # таким образом мы можем заполнить список без использования цикла
+
+
+print(num_list)
+len_list = len(num_list)
+
+if len_list >= n_1 > 0 and len_list >= n_2 > 0:
+    print(num_list[n_1 - 1] * num_list[n_2 - 1])
+else:
+    print("There are no values for these indexes!")
+

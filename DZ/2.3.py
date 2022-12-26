@@ -11,7 +11,7 @@ number = int(input("Введите число: "))
 number_list = []
 number_sum = 0 
 for i in range(number):
-    number_list.append(round((1+1/(i+1))**(i+1),3))
+    number_list.append(round((1+1/(i+1))**(i+1),3)) # лучше создать отдельную переменную под подсчёт, чтобы потом её аппендить - там менее ресурсозатратно
     number_sum = number_sum + number_list[i]
     print(round(number_sum, 3))
 
