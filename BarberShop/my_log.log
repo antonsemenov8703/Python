@@ -1,0 +1,67 @@
+30-01-2023 16:48:32 - main - INFO - <module> - Start program
+30-01-2023 16:48:32 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:48:36 - user_interface - INFO - add_menu - Start add menu
+30-01-2023 16:52:22 - main - INFO - <module> - Start program
+30-01-2023 16:52:22 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:52:28 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:52:33 - user_interface - INFO - add_menu - Start add menu
+30-01-2023 16:53:59 - main - INFO - <module> - Start program
+30-01-2023 16:53:59 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:54:01 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:54:04 - user_interface - INFO - add_menu - Start add menu
+30-01-2023 16:55:08 - main - INFO - <module> - Start program
+30-01-2023 16:55:08 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:55:10 - user_interface - INFO - add_menu - Start add menu
+30-01-2023 16:55:30 - user_interface - INFO - add_menu - Stop edit menu
+30-01-2023 16:55:30 - db_work - INFO - add_entry - Adding a new entry: {'id': '1', 'name': 'fff', 'surname': 'ddd', 'phone': '11111111111', 'birth year': '1988', 'experience since': '1999'}
+30-01-2023 16:55:30 - db_work - WARNING - add_entry - Data added to the list: dict_values([3, 'fff', 'ddd', '11111111111', '1988', '1999'])
+30-01-2023 16:55:30 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:55:33 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:55:39 - user_interface - INFO - add_menu - Start add menu
+30-01-2023 16:56:04 - user_interface - INFO - add_menu - Stop edit menu
+30-01-2023 16:56:04 - db_work - INFO - add_entry - Adding a new entry: {'id': '1', 'name': 'Петр', 'surname': 'Репьев', 'phone': '79017776655', 'birth year': '1988', 'experience since': '2005'}
+30-01-2023 16:56:04 - db_work - WARNING - add_entry - Data added to the list: dict_values([4, 'Петр', 'Репьев', '79017776655', '1988', '2005'])
+30-01-2023 16:56:04 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:56:29 - db_work - INFO - del_entry - Deleting an entry: fff
+30-01-2023 16:56:29 - err_check - INFO - find_entry - Search for an entry: fff
+30-01-2023 16:56:29 - err_check - INFO - find_entry - Search result: ['3 fff ddd 11111111111 1988 1999']
+30-01-2023 16:56:31 - db_work - INFO - del_entry - Id selected: 3
+30-01-2023 16:56:31 - db_work - INFO - del_entry - Data deleted
+30-01-2023 16:56:31 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:56:33 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:56:44 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:56:44 - err_check - INFO - find_entry - Search for an entry: 1
+30-01-2023 16:56:44 - err_check - INFO - find_entry - Search result: ['1 Кирилл Цинов 12345678901 1234 1235']
+30-01-2023 16:56:44 - user_interface - INFO - edit_menu - Start edit menu
+30-01-2023 16:56:54 - db_work - INFO - edit_entry - Data changes: ('phone', '79028887766')
+30-01-2023 16:56:54 - err_check - INFO - find_entry - Search for an entry: 1
+30-01-2023 16:56:54 - err_check - INFO - find_entry - Search result: ['1 Кирилл Цинов 12345678901 1234 1235']
+30-01-2023 16:56:54 - db_work - INFO - edit_entry - Current value: 12345678901
+30-01-2023 16:56:54 - db_work - INFO - edit_entry - New value: 79028887766
+30-01-2023 16:56:54 - db_work - INFO - edit_entry - Data changed
+30-01-2023 16:56:54 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:57:01 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:57:01 - err_check - INFO - find_entry - Search for an entry: 1
+30-01-2023 16:57:01 - err_check - INFO - find_entry - Search result: ['1 Кирилл Цинов 79028887766 1234 1235']
+30-01-2023 16:57:01 - user_interface - INFO - edit_menu - Start edit menu
+30-01-2023 16:57:08 - db_work - INFO - edit_entry - Data changes: ('birth year', '1990')
+30-01-2023 16:57:08 - err_check - INFO - find_entry - Search for an entry: 1
+30-01-2023 16:57:08 - err_check - INFO - find_entry - Search result: ['1 Кирилл Цинов 79028887766 1234 1235']
+30-01-2023 16:57:08 - db_work - INFO - edit_entry - Current value: 1234
+30-01-2023 16:57:08 - db_work - INFO - edit_entry - New value: 1990
+30-01-2023 16:57:08 - db_work - INFO - edit_entry - Data changed
+30-01-2023 16:57:08 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:57:14 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:57:14 - err_check - INFO - find_entry - Search for an entry: 1
+30-01-2023 16:57:14 - err_check - INFO - find_entry - Search result: ['1 Кирилл Цинов 79028887766 1990 1235']
+30-01-2023 16:57:14 - user_interface - INFO - edit_menu - Start edit menu
+30-01-2023 16:57:23 - db_work - INFO - edit_entry - Data changes: ('experience since', '2010')
+30-01-2023 16:57:23 - err_check - INFO - find_entry - Search for an entry: 1
+30-01-2023 16:57:23 - err_check - INFO - find_entry - Search result: ['1 Кирилл Цинов 79028887766 1990 1235']
+30-01-2023 16:57:23 - db_work - INFO - edit_entry - Current value: 1235
+30-01-2023 16:57:23 - db_work - INFO - edit_entry - New value: 2010
+30-01-2023 16:57:23 - db_work - INFO - edit_entry - Data changed
+30-01-2023 16:57:23 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:57:29 - db_work - INFO - read_all - Show all Show all entries. Database File - Employee_list.csv
+30-01-2023 16:57:45 - user_interface - INFO - menu - Stop program.
+
